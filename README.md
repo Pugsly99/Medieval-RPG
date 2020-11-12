@@ -30,7 +30,9 @@
 
 | Behavior | Input | Output |
 |-------------------------------------------------|--------|--------|
-| | | |
+| takes in user info to build character | player name, character type | Johnny, Warrior |
+| method that sets the character stats based on choosen character type | Warrior | Str = rdm num between 6-10, Int = rdm num between 2-6, Spd = rdm num between 4-10, Mana = rdm num between 1-3 |
+| print out character stats mehtod| Johnny, Warrior | Str = 7 Int = 5 Spd = 9 Mana = 1 |
 
 
 
