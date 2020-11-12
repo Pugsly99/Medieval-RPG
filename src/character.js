@@ -10,9 +10,12 @@ export default class Character {
     this.mana = 0;
   }
 
-  getStats() {
-    
-
+  getStats(characterType) {
+    if(characterType === 'Warrior'){
+      this.health = Math.floor((Math.random() * (20 - 10)) + 10);
+    } else {
+      this.health = 9;
+    }
   }
 }
 
